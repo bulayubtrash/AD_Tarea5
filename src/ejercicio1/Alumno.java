@@ -100,4 +100,12 @@ public class Alumno implements Serializable {
 		this.grupo = grupo;
 	}
 
+	@Override
+	public String toString() {
+		return "Alumno [nia=" + nia + ", nombre=" + nombre + ", apellidos=" + apellidos + ", genero=" + genero
+				+ ", fechaNac=" + fechaNac + ", ciclo=" + ciclo + ", curso=" + curso + ", grupo=" + grupo + "]";
+	}
+
+	
+	
 }
